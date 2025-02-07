@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const urlAddress = "http://ipwho.is/";
+    const urlAddress = "https://ipwho.is/";
 
     axios.get(urlAddress)
         .then(response => {
