@@ -16,7 +16,6 @@ if (latitude && longitude) {
             const weatherInfo = getWeatherDescription(weatherCode);
 
             document.getElementById("weather-info").innerHTML = `
-                <h2>Previsão do Tempo</h2>
                 <p>${weatherInfo.icon}</p>
                 <p><strong>${weatherInfo.description}</strong></p>
             `;
